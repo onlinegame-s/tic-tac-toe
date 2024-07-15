@@ -176,7 +176,7 @@ div.wrapper {    display: block;
 
 
     canvas.inactive {    filter: blur(7px);}
-    body {background-color: #1a1a1a; transition: 1.2s all;}
+    body { transition: 1.2s all;}
 
 
     canvas {    width: 590px;    direction: ltr;
