@@ -1,0 +1,534 @@
+
+<!DOCTYPE html>
+<html lang="en"  >
+   <head>
+
+	   		<title>Play Tic-Tac-Toe Online for Free</title>
+<meta name="description" content="Play classic Tic-Tac-Toe online with our customizable 1 or 2-player free game. Challenge friends or play against the computer. Join the fun now! 🔥" />
+
+	<link rel="canonical" href="https://onlinegame-s.github.io/tic-tac-toe"/>
+	   
+		      <link rel="stylesheet" type="text/css" href="https://onlinegame-s.github.io/tic-tac-toe/css/bootstrap.min.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <meta name="viewport" content="width=device-width, shrink-to-fit=no, viewport-fit=cover">
+      <link rel="icon" type="image/png" sizes="16x16" href="/logo-16x16.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/logo-32x32.png" />
+      <link rel="icon" type="image/png" sizes="100x100" href="/logo-100x100.png" />
+      <link rel="icon" type="image/png" sizes="200x200" href="/logo-200x200.png" />
+      <link rel="image_src" type="image/png" href="/logo-200x200.png" />
+      <link rel="shortcut icon" type="image/png" href="/logo-16x16.png" />
+      <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon">
+		<script>
+			if (window.parent.frames.length > 0) {
+			window.stop();
+			}
+
+			
+</script>
+      <link rel="alternate" hreflang="en"
+       href="https://onlinegame-s.github.io/tic-tac-toe" />
+
+<link rel="alternate" hreflang="de"
+       href="https://onlinegame-s.github.io/tic-tac-toe/de/" />
+  <link rel="alternate" hreflang="ru"
+       href="https://onlinegame-s.github.io/tic-tac-toe/ru/" />
+       <link rel="alternate" hreflang="pl"
+       href="https://onlinegame-s.github.io/tic-tac-toe/pl/" />
+       <link rel="alternate" hreflang="fr"
+       href="https://onlinegame-s.github.io/tic-tac-toe/fr/" />
+       <link rel="alternate" hreflang="it"
+       href="https://onlinegame-s.github.io/tic-tac-toe/it/" />
+
+       <link rel="alternate" hreflang="pt"
+       href="https://onlinegame-s.github.io/tic-tac-toe/pt/" />
+
+       <link rel="alternate" hreflang="es"
+       href="https://onlinegame-s.github.io/tic-tac-toe/es/" />
+
+
+       <link rel="alternate" hreflang="cs"
+       href="https://onlinegame-s.github.io/tic-tac-toe/cz/" />
+       <link rel="alternate" hreflang="nl"
+       href="https://onlinegame-s.github.io/tic-tac-toe/nl/" />
+
+       <link rel="alternate" hreflang="bg"
+       href="https://onlinegame-s.github.io/tic-tac-toe/bg/" />
+
+       <link rel="alternate" hreflang="sv"
+       href="https://onlinegame-s.github.io/tic-tac-toe/sw/" />
+       <link rel="alternate" hreflang="fi"
+       href="https://onlinegame-s.github.io/tic-tac-toe/fi/" />
+
+
+
+       <link rel="alternate" hreflang="da"
+       href="https://onlinegame-s.github.io/tic-tac-toe/dk/" />
+       <link rel="alternate" hreflang="no"
+       href="https://onlinegame-s.github.io/tic-tac-toe/no/" />
+
+
+
+       <link rel="alternate" hreflang="el"
+       href="https://onlinegame-s.github.io/tic-tac-toe/gr/" />
+
+       <link rel="alternate" hreflang="hu"
+       href="https://onlinegame-s.github.io/tic-tac-toe/hu/" />
+
+       <link rel="alternate" hreflang="ja"
+       href="https://onlinegame-s.github.io/tic-tac-toe/jp/" />
+       <link rel="alternate" hreflang="ro"
+       href="https://onlinegame-s.github.io/tic-tac-toe/ro/" />
+
+
+
+       <link rel="alternate" hreflang="tr"
+       href="https://onlinegame-s.github.io/tic-tac-toe/tr/" />
+       <link rel="alternate" hreflang="vi"
+       href="https://onlinegame-s.github.io/tic-tac-toe/vn/" />
+
+
+
+       <link rel="alternate" hreflang="ar"
+       href="https://onlinegame-s.github.io/tic-tac-toe/ar/" />
+
+
+
+       <link rel="alternate" hreflang="ko"
+       href="https://onlinegame-s.github.io/tic-tac-toe/kr/" />
+       <link rel="alternate" hreflang="zh"
+       href="https://onlinegame-s.github.io/tic-tac-toe/zh/" />
+
+
+
+
+ <link rel="alternate" hreflang="x-default"
+       href="https://onlinegame-s.github.io/tic-tac-toe" />
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+   </head>
+   <body class="classic">
+		      <!-- Google tag (gtag.js) -->
+    <!-- --  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R36HGTPEL2"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'G-xxxxxxxx');
+      </script> -->
+	   	   <div class="container">
+	<div class="row">
+	
+		<div class="">
+			<section class="navigation">
+  <div class="nav-container">
+   <div class="brand">
+     <a href="/"><img class="logo" src="https://onlinegame-s.github.io/tic-tac-toe/img/logowhite.png" alt="TicTacToe" width="210" height="69"></a>
+    </div>
+	  	  <div class=" buttons-logo">
+		<p>Play now!</p>
+		<div class="block1">
+			<a href="/"><img src="https://onlinegame-s.github.io/tic-tac-toe/img/classic2mini.png" alt="Classic game" width="51"><span>Classic</span></a>
+		</div>
+		<div class="block1">
+			<a href="/ultimate-tic-tac-toe/"><img src="https://onlinegame-s.github.io/tic-tac-toe/img/ultimate.png" alt="Ultimate game" width="51"><span>Ultimate</span></a>
+		</div>
+
+
+	
+</div>
+
+
+
+    <nav>
+      <div class="nav-mobile"><span id="nav-toggle"><span></span></span></div>
+		
+		
+		
+		
+      <ul><li class="first level1 odd"><a href="/tips/">Tips</a></li><li class="last level1 even"><a href="/rules">Rules</a></li></ul>
+    </nav>
+  </div>
+</section>
+			
+		</div>
+	</div>
+	<div class="crumbs" style="height:19px;">
+		
+	
+		</div>
+	
+			 <div class="mobile-buttons"><div class=" buttons-logo">
+		<p>Play now!</p>
+		<div class="block1">
+			<a href="/"><img src="https://onlinegame-s.github.io/tic-tac-toe/img/classic2mini.png" alt="Classic game" width="51"><span>Classic</span></a>
+		</div>
+		<div class="block1">
+			<a href="/ultimate-tic-tac-toe/"><img src="https://onlinegame-s.github.io/tic-tac-toe/img/ultimate.png" alt="Ultimate game" width="51"><span>Ultimate</span></a>
+		</div>
+
+
+	
+</div>
+
+</div>
+
+</div>
+
+
+
+      <div class="wrapper container">
+         <div class="game-board">
+            <div class="game-mode">
+               <div class="row no-gutter">
+                  <div class="top-blocks col-xs-4 unselectable">
+                     <div id="reset-button"><img src="https://onlinegame-s.github.io/tic-tac-toe/img/restart.svg" height="35" width="35" title = "Restart game" alt = "Restart game"></div>
+                  </div>
+                  <div id="handlerMode" class="top-blocks col-xs-4 unselectable"></div>
+                  <div id="handlerDiff" class="top-blocks col-xs-4 unselectable"></div>
+               </div>
+               <select id="mode">
+                  <option value="1">Player vs Player</option>
+                  <option value="2">Player vs Computer</option>
+                  <option value="3">Player vs Computer with predefined position</option>
+               </select>
+               <select id="diff-mode">
+                  <option value="1">EASY</option>
+                  <option value="2">MEDIUM</option>
+                  <option value="3">HARD</option>
+               </select>
+            </div>
+            <table translate="no">
+               <tr>
+                  <td class="cell"></td>
+                  <td class="cell"></td>
+                  <td class="cell"></td>
+               </tr>
+               <tr>
+                  <td class="cell"></td>
+                  <td class="cell"></td>
+                  <td class="cell"></td>
+               </tr>
+               <tr>
+                  <td class="cell"></td>
+                  <td class="cell"></td>
+                  <td class="cell"></td>
+               </tr>
+            </table>
+            <div class="summary">
+               <div class="message">Player 1's turn</div>
+               <div class="counters row row-flex">
+                  <div class="col-xs-5">
+                     <div class="p1name">Player 1 <br/>(X)</div>
+                     <div class="p1w"></div>
+                  </div>
+                  <div class="col-xs-5">
+                     <div class="p2name">Player 2 <br/>(O)</div>
+                     <div class="p2w"></div>
+                  </div>
+                  <div class="col-xs-5">
+                     <div class="compname">Computer <br/>(O)</div>
+                     <div class="cw"></div>
+                  </div>
+                  <div id="reset-counter" class="col-xs-2 top-blocks unselectable"><img src="https://onlinegame-s.github.io/tic-tac-toe/img/clear.svg"  height="35" width="35" title = "Clear counters" alt = "Clear counters"></div>
+               </div>
+               <div class="row no-gutter ">
+                  <div id="reset-names" class="col-xs-8 top-blocks unselectable">Set Names</div>
+                  <div id="mute" class="col-xs-4 top-blocks unselectable"><img src="https://onlinegame-s.github.io/tic-tac-toe/img/mute.svg"  height="35" width="35" title = "Mute" alt = "Mute"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container text">
+         <h1>Tic Tac Toe</h1>
+         <p>Tic Tac Toe by tictactoefree is a simple yet challenging game that people of all ages have enjoyed. Whether you are looking to challenge yourself or play with friends, Tic Tac Toe offers endless hours of entertainment.</p>
+         <h2> Basics of Tic Tac Toe</h2>
+         <p>Tic Tac Toe is a game that takes place on a 3x3 grid. Two players take turns marking X and O on the grid until one player gets three in a row. The three in a row can be horizontal, vertical, or diagonal. If all nine squares are filled without a winner, the game ends in a draw.</p>
+         <h2>Tictactoefree modes</h2>
+         <p>Our completely free game has several of unique game modes that you should definitely try, including:</p>
+         <ul>
+            <li>2-player mode.</li>
+            <li>Human against the computer at different levels of difficulty: easy, medium and hard.</li>
+            <li>Human against the computer opponent with random first moves.</li>
+         </ul>
+         <h2>Playing Tic Tac Toe Online</h2>
+         <p>Playing Tic Tac Toe online has several advantages over playing it in person. It allows you to switch effortlessly between single-player and two-player modes, so you can challenge yourself or play with friends. Additionally, playing online is convenient and can be done from anywhere with an internet connection.</p>
+         <h2>Benefits of Playing Tic Tac Toe</h2>
+         <p>Playing Tic Tac Toe has several benefits that go beyond pure entertainment. Firstly, it helps improve strategic thinking skills as players need to plan their moves ahead of time. This is especially true in two-player mode, where players need to anticipate their opponent's moves. Secondly, playing Tic Tac Toe can help enhance concentration and focus. Finally, playing Tic Tac Toe is an excellent way to spend your leisure time or take a break from more complex tasks.</p>
+         <p>So what are you waiting for? Get started playing Tic Tac Toe for free on tictactoefree today!</p>
+      </div>
+      <div id="modal">
+         <div id="modal-content">
+            <p id="result"></p>
+            <button id="play-again">Play one more time</button>
+         </div>
+      </div>
+      <div id="modal-start">
+         <div id="modal-content-start">
+            <p>Set names</p>
+            <input type="text" name="namePlayer1" id="namePlayer1" placeholder="Player 1 name" class="form-control"/>
+            <input type="text" name="namePlayer2" id="namePlayer2" placeholder="Player 2 name" class="form-control"/>
+            <button id="send-names">Ok</button>
+         </div>
+      </div>
+      <div class="red" id="open">
+<div class="flags container">
+<div class="row">
+	
+	
+
+	
+	
+<div class="col-md-3"><a href="/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/uk.png" alt="English" height="32" width="32">
+English
+</a></div>
+<div class="col-md-3"><a href="/de/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/de.png" alt="Deutsch" height="32" width="32">
+Deutsch
+</a></div>
+<div class="col-md-3"><a href="/ru/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/ru.png" alt="Русский язык" height="32" width="32">
+Русский язык
+</a></div>
+
+<div class="col-md-3"><a href="/pl/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/pl.png" alt="Język polski" height="32" width="32">
+Język polski
+</a></div>
+<div class="col-md-3"><a href="/fr/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/fr.png" alt="Français" height="32" width="32">
+Français
+</a></div>
+<div class="col-md-3"><a href="/it/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/it.png" alt="Lingua italiana" height="32" width="32">
+Lingua italiana
+</a></div>
+
+<div class="col-md-3"><a href="/pt/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/pt.png" alt="Português (Brasil)" height="32" width="32">
+Português (Brasil)
+</a></div>
+
+<div class="col-md-3"><a href="/es/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/es.png" alt="Español" height="32" width="32">
+Español
+</a></div>
+
+<div class="col-md-3"><a href="/cz/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/cz.png" alt="Český jazyk" height="32" width="32">
+Český jazyk
+</a></div>
+
+<div class="col-md-3"><a href="/nl/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/nl.png" alt="Dutch" height="32" width="32">
+Dutch
+</a></div>
+
+<div class="col-md-3"><a href="/bg/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/bg.png" alt="Български език" height="32" width="32">
+Български език
+</a></div>
+
+<div class="col-md-3"><a href="/sw/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/sw.png" alt="Svenska" height="32" width="32">
+Svenska
+</a></div>
+
+<div class="col-md-3"><a href="/fi/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/fi.png" alt="Suomen kieli" height="32" width="32">
+Suomen kieli
+</a></div>
+<div class="col-md-3"><a href="/dk/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/dk.png" alt="Dansk" height="32" width="32">
+Dansk
+</a></div>
+
+<div class="col-md-3"><a href="/no/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/no.png" alt="Norsk" height="32" width="32">
+Norsk
+</a></div>
+
+
+<div class="col-md-3"><a href="/gr/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/gr.png" alt="Ελληνικά" height="32" width="32">
+Ελληνικά
+</a></div>
+
+<div class="col-md-3"><a href="/hu/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/hu.png" alt="Magyar" height="32" width="32">
+Magyar
+</a></div>
+
+<div class="col-md-3"><a href="/jp/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/jp.png" alt="日本語" height="32" width="32">
+日本語
+</a></div>
+
+<div class="col-md-3"><a href="/ro/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/ro.png" alt="Limba română" height="32" width="32">
+Limba română
+</a></div>
+
+
+<div class="col-md-3"><a href="/tr/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/tr.png" alt="Türkçe" height="32" width="32">
+Türkçe
+</a></div>
+
+<div class="col-md-3"><a href="/vn/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/vn.png" alt="Tiếng Việt" height="32" width="32">
+Tiếng Việt
+</a></div>
+
+
+
+
+<div class="col-md-3"><a href="/kr/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/kr.png" alt="한국어" height="32" width="32">
+한국어
+</a></div>
+
+
+<div class="col-md-3"><a href="/zh/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/zh.png" alt="现代标准汉语" height="32" width="32">
+现代标准汉语
+</a></div>
+
+<div class="col-md-3"><a href="/ar/">
+<img src="https://onlinegame-s.github.io/tic-tac-toe/img/ar.png" alt="اللُّغَةُ العَرَبِيَّة" height="32" width="32">
+اللُّغَةُ العَرَبِيَّة
+</a></div>
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="container footer-final">
+
+<div class="row">
+
+<div class="col-sm-2 logo-img footer-1-line">
+<a href="/"><img src="https://onlinegame-s.github.io/tic-tac-toe/img/logo-grey.png" alt="TicTacToe" width="70" height="70"></a>
+<p><a href="/">TicTacToeFree ©2024</a></p>
+</div>
+
+
+
+<div class="col-sm-4 menulist footer-2-line"><ul>
+    <li><a href="/tips/">Tips</a></li><li><a href="/rules">Rules</a></li><li><a href="/contact-us">Contact us</a></li>
+</ul></div>
+
+
+<div class="col-sm-4 menulist footer-3-line"><ul>
+<li><a href="/ultimate-tic-tac-toe/">Ultimate</a></li>
+<li><a href="/">Classic</a></li>
+    <li><a href="/printable">Printable</a></li>    
+</ul></div><div class="col-sm-2 footer-4-line"><button data-fancybox data-src="#open" class="langa"><img src="https://onlinegame-s.github.io/tic-tac-toe/img/uk.png" alt="English" height="32" width="32"><img src="https://onlinegame-s.github.io/tic-tac-toe/img/down.png" alt="Open" height="16" width="16"></button>
+</div>
+
+</div><div class="row">
+<div class="col-sm-4 menulist2">
+<a href="/privacy">Privacy</a>
+</div>
+<div class="col-sm-4 menulist2">
+<a href="/cookies">Cookies</a>
+</div>
+<div class="col-sm-4 menulist2">
+<a href="/terms">Terms</a>
+</div>
+</div>
+
+
+
+
+</div>
+
+	        <audio id="music-win" src="https://onlinegame-s.github.io/tic-tac-toe/mp3/win_classic.mp3"></audio>
+      <audio id="music-lose" src="https://onlinegame-s.github.io/tic-tac-toe/mp3/lose_classic.mp3"></audio>
+	   	  <audio id="music-x" src="https://onlinegame-s.github.io/tic-tac-toe/mp3/x.mp3"></audio>
+	   	  <audio id="music-o" src="https://onlinegame-s.github.io/tic-tac-toe/mp3/o.mp3"></audio>
+
+      <audio id="music-tie" src="https://onlinegame-s.github.io/tic-tac-toe/mp3/tie.wav"></audio>
+      <audio id="music-move" src="https://onlinegame-s.github.io/tic-tac-toe/mp3/movex.wav"></audio>
+      <script src="https://onlinegame-s.github.io/tic-tac-toe/css/jquery-3.6.0.min.js"></script>
+
+<script>
+	
+	var player1Name = 'Player 1'; // default player 1 name 
+var player2Name = 'Player 2'; // default player 2 name 
+let localAltPVP = 'Player vs Player';
+let localAltPVC = 'Player vs Computer';
+let localAltPVCWP = 'Player vs Computer with predefined position';
+let whosturn = '\'s turn'; // line 63 and 69 если одно слово - не забываем пробел в самом начале
+let computer = 'Computer'; 
+let wins = 'wins!'; 
+let letsgo = 'Let\'s go!'; 
+let tie = 'Tie!'; 
+let player1 = 'Player 1'; 
+let player2 = 'Player 2';
+</script>
+
+
+      <script src="https://onlinegame-s.github.io/tic-tac-toe/appfinal.js"></script>
+
+
+
+      <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat&display=swap" rel="stylesheet">
+<style>
+.top-blocks {
+    min-height: 50px;
+    display: flex;
+    cursor: pointer;
+    font-size: 19px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+</style>
+<script>
+
+(function($) { // Begin jQuery
+  $(function() { // DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $('nav ul li a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      // Close one dropdown when selecting another
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    // Clicking away from dropdown will remove the dropdown class
+    $('html').click(function() {
+      $('.nav-dropdown').hide();
+    });
+    // Toggle open and close nav styles on click
+    $('.nav-mobile').click(function() {
+      $('.nav-container nav ul').slideToggle();
+    });
+    // Hamburger to X toggle
+    $('.nav-mobile').on('click', function() {
+      this.classList.toggle('active');
+    });
+  }); // end DOM ready
+})(jQuery);
+	
+	</script>
+	   
+	   
+	   	   <script>
+	   	
+		   $( document ).ready(function() {
+   $('.buttons-logo .block1:nth-child(2) a').addClass('active');
+});
+		   
+	   </script>
+	   	   <script src="https://onlinegame-s.github.io/tic-tac-toe/tsparticles.confetti.bundle.min.js"></script>
+
+	</body>
+</html>
